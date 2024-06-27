@@ -1,4 +1,9 @@
-% Latex Paper Template for ISMIR 2024
+% Latex Paper Template for LAMIR Workshop 2024
+% forked and adapted from ISMIR paper templates
+%
+% Updated for LAMIR 2024 Template, 06.27.2024 by Giovana Morais
+% - changed location to "Rio de Janeiro, Brazil"
+% - changed
 %
 % Updated for 2024 Template, 01.21.24 by Matthew McCallum
 % - changed year to 2024, changed location to "San Francisco, USA"
@@ -8,7 +13,7 @@
 %
 % Updated for 2022 Template, 02.02.22 by Ajay Srinivasamurthy
 % - changed the location to "Bangalore,India"
-% 
+%
 % Updated for 2021 Template, 01.30.21 by Ajay Srinivasamurthy
 % - changed the location to "online"
 % - merged LBD style file
@@ -71,16 +76,16 @@
 %%%<<<<<<<<<<>>>>>>>>>>>%%%
 %%%TO BE CHANGED EVERY YEAR
 \newcommand{\conferenceyear}{2024}
-\newcommand{\conferenceedition}{25th}
-\newcommand{\conferenceplace}{San Francisco, United States}
+\newcommand{\conferenceedition}{1st}
+\newcommand{\conferenceplace}{Rio de Janeiro, Brazil}
 %%%<<<<<<<<<<>>>>>>>>>>>%%%
 %%%<<<<<<<<<<>>>>>>>>>>>%%%
 
-\ifdefined\lbd
-\def\papersubject{Extended Abstracts for the Late-Breaking Demo Session of the \conferenceedition\ Int. Society for Music Information Retrieval Conf., \conferenceplace, \conferenceyear}
-\else
-\def\papersubject{Proceedings of the \conferenceedition\ Int. Society for Music Information Retrieval Conf., \conferenceplace, \conferenceyear}
-\fi
+% \ifdefined\lbd
+% \def\papersubject{Extended Abstracts for the Late-Breaking Demo Session of the \conferenceedition\ Int. Society for Music Information Retrieval Conf., \conferenceplace, \conferenceyear}
+% \else
+\def\papersubject{Proceedings of the \conferenceedition\ Latin American Music Informantion Retrieval Workshop, \conferenceplace, \conferenceyear}
+% \fi
 
 %\newcommand\setauthorname[1]{\def\authorname{#1}}
 %Do this in the oneauthor, twoauthor, etc. commands
@@ -207,12 +212,12 @@
 \hskip 1.5cm \copyright \hskip .1cm \authorname.
 Licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).
 {\bf Attribution: } \authorname,
-``\removelinebreaks{\@title}'', in 
-\ifdefined\lbd
-\emph{Extended Abstracts for the Late-Breaking Demo Session of the \conferenceedition\ Int. Society for Music Information Retrieval Conf.,} \conferenceplace, \conferenceyear.
-\else
-\emph{Proc. of the \conferenceedition\ Int. Society for Music Information Retrieval Conf.,} \conferenceplace, \conferenceyear.
-\fi
+``\removelinebreaks{\@title}'', in
+% \ifdefined\lbd
+% \emph{Extended Abstracts for the Late-Breaking Demo Session of the \conferenceedition\ Int. Society for Music Information Retrieval Conf.,} \conferenceplace, \conferenceyear.
+% \else
+\emph{Proc. of the \conferenceedition\ Latin American Music Information Retrieval Workshop,} \conferenceplace, \conferenceyear.
+% \fi
 \end{spacing}
 }
 \end{figure}
